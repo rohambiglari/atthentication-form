@@ -1,0 +1,30 @@
+.container {
+  margin-top: 16px;
+  width: 40%;
+}
+
+.buttons {
+  cursor: pointer !important;
+  height: 32px;
+  width: inherit;
+  min-width: 100px;
+}
+
+.buttons:hover {
+  border: 1px solid #3e89ff;
+  color: #3e89ff;
+  background-color: unset;
+  font-size: 15px;
+}
+
+.buttons:hover:not(:disabled) {
+  border: 1px solid #3e89ff;
+  color: #3e89ff;
+  background-color: unset;
+  font-size: 15px;
+}
+
+.buttons:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}

@@ -1,0 +1,25 @@
+.container {
+  background-color: #1e1e1e;
+  border: 1px solid #4f4f4f;
+  border-radius: 8px;
+  width: 500px;
+  height: auto;
+  margin: 80px 16px;
+  padding: 8px 16px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+
+.headTitle {
+  color: #005cf4;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0px 35px;
+}
+
+.error {
+  font-size: 14px;
+  margin-top: 3px;
+  color: #c72a2a;
+  margin-bottom: 10px;
+}
